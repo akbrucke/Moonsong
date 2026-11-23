@@ -14,6 +14,8 @@ stage (Eclipse Mode) before splitting into parallel Delay and Reverb engines. In
 low-pass, broad-bell/high-shelf EQ, and saturation modules can be toggled either Pre-FX or Post-FX for
 each engine, while a post-FX stereo chorus adds further dimension.
 
+The plugin features a Mix control, so that it can be used either as a direct insert, or as a send effect.
+
 ## Features
 Pre-FX Optical Compressor: Combines fast (60 ms) and slow (650 ms) release stages to keep
 breathy vocal phrases consistent as they enter the delay and reverb engines.
