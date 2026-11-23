@@ -33,7 +33,8 @@ Modes included: Ping Pong, Dual Mono, Mono, and Multi-Tap.
 ## Screenshots
 Three collapsible drawers frame the central console, keeping the main workspace clean until additional
 vocal shaping is needed. Click any drawer tab to smoothly slide it open or closed. The window can be freely
-resized.
+resized.  
+
 <img width="922" height="580" alt="Screenshot 2026-11-23 035326" src="https://github.com/user-attachments/assets/6debce8d-d2ba-4655-b8d7-6dffcc3ecca5" />
 <img width="1248" height="845" alt="Moonsong" src="https://github.com/user-attachments/assets/356df091-a490-486d-9d17-6a1543162248" />
 
