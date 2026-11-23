@@ -41,7 +41,7 @@ resized.
 <img width="1248" height="845" alt="Moonsong" src="https://github.com/user-attachments/assets/356df091-a490-486d-9d17-6a1543162248" />
 
 ## Installation
-Currently, Moonsong is released for Windows 10/11 only, but Mac and Linux releases are coming soon. To grab the latest prebuilt release, head to the [releases page.](https://github.com/akbrucke/Moonsong/releases)
+Currently, Moonsong is released for Windows 10/11 only, but Mac and Linux releases are coming soon. To grab the latest prebuilt release, head to the [releases page.](https://github.com/akbrucke/Moonsong/releases) Included with the release download is a thorough user manual, a collection of presets, and installation instructions.
 
 ## Building from Source (Windows)
 
