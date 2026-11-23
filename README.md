@@ -1,5 +1,5 @@
 # Moonsong
-3D Vocal Delay &amp; Reverb Console using JUCE Framework, vibe-coded and then refined with a human touch
+VST3 Vocal Delay &amp; Reverb Console using JUCE Framework, vibe-coded and then refined with a human touch
 
 ## Overview & Design Philosophy
 Moonsong is a dedicated vocal spatial workstation engineered to deliver lush, three-dimensional depth
