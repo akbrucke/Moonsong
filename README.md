@@ -15,8 +15,10 @@ each engine, while a post-FX stereo chorus adds further dimension.
 ## Features
 Pre-FX Optical Compressor: Combines fast (60 ms) and slow (650 ms) release stages to keep
 breathy vocal phrases consistent as they enter the delay and reverb engines.
+
 Eclipse Mode Stereo Doubler: Positioned post-compression and pre-FX so the spatial engines react
 to a wide stereo image rather than a narrow mono center.
+
 Mud-Free 8-Channel FDN Reverb: Uses 4 series all-pass diffusers feeding an 8-tank Householder
 feedback matrix with a built-in 135 Hz structural high-pass filter inside the tank loop to prevent low-mid
 vocal buildup.
