@@ -47,10 +47,13 @@ Moonsong uses CMake and automatically fetches JUCE (`9.0.5`) during configuratio
 ### Build Steps
 
 1. Clone the repository
+   
 2. Open a terminal in the root folder and run
 ```cmake -B build -G "Visual Studio 17 2022" -A x64```
+
 And then compile the release build:
 ```cmake --build build --config Release```
 3. Locate & Install the VST3 Plugin
 The finished VST3 bundle will be located in ```build\Moonsong_artefacts\Release\VST3\Moonsong.vst3```
+
 4. Copy ```Moonsong.vst3``` into your system VST3 folder so your DAW can detect it. On Windows, this would be: ```C:\Program Files\Common Files\VST3\```
