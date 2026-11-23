@@ -61,7 +61,7 @@ Moonsong uses CMake and automatically fetches JUCE (`9.0.5`) during configuratio
 And then compile the release build:  
 ```cmake --build build --config Release```
 
-3. Locate & Install the VST3 Plugin
+3. Locate & Install the VST3 Plugin  
 The finished VST3 bundle will be located in ```build\Moonsong_artefacts\Release\VST3\Moonsong.vst3```  
 Copy ```Moonsong.vst3``` into your system VST3 folder so your DAW can detect it.  
 On Windows, this would be: ```C:\Program Files\Common Files\VST3\```
