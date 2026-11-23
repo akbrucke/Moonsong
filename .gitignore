@@ -23,6 +23,9 @@
 *.dll
 *.so.*
 
+# Compiled binaries
+*.vst3
+
 # Fortran module files
 *.mod
 *.smod
