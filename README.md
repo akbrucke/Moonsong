@@ -57,14 +57,38 @@ Moonsong uses CMake and automatically fetches JUCE (`9.0.5`) during configuratio
 1. Clone the repository
    
 2. Open a terminal in the root folder and run  
-```cmake -B build -G "Visual Studio 17 2022" -A x64```  
+`cmake -B build -G "Visual Studio 17 2022" -A x64`  
 And then compile the release build:  
-```cmake --build build --config Release```
+`cmake --build build --config Release`
 
 3. Locate & Install the VST3 Plugin  
-The finished VST3 bundle will be located in ```build\Moonsong_artefacts\Release\VST3\Moonsong.vst3```  
-Copy ```Moonsong.vst3``` into your system VST3 folder so your DAW can detect it.  
-On Windows, this would be: ```C:\Program Files\Common Files\VST3\```
+The finished VST3 bundle will be located in `build\Moonsong_artefacts\Release\VST3\Moonsong.vst3`  
+Copy `Moonsong.vst3` into your system VST3 folder so your DAW can detect it.  
+On Windows, this would be: `C:\Program Files\Common Files\VST3\`
+
+## Building from Source (macOS, Apple silicon)
+
+### Prerequisites
+* **Xcode Command Line Tools**  
+* **Homebrew**  
+* **CMake 3.22 or newer**  
+* **Ninja**  
+(Full Xcode is not required)  
+
+### Build Steps
+
+1. Clone the repository  
+
+2. Open a terminal in the root folder and run  
+`cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release`   
+then `cmake --build build`  
+
+3. Locate & Install the VST3 Plugin  
+The finished VST3 bundle will be located in `build\Moonsong_artefacts\Release\VST3\Moonsong.vst3`  
+Copy `Moonsong.vst3` into your system VST3 folder so your DAW can detect it.  
+On macOS, this would be: `~/Library/Audio/Plug-Ins/VST3/`  
+
+- *Note that Logic Pro and GarageBand only load Audio Units, so they won't see the VST3*
 
 ## Changelog
 MOONSONG V1.10 (November 22 2026)  
