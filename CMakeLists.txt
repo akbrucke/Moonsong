@@ -25,7 +25,7 @@ juce_add_plugin(Moonsong
     COPY_PLUGIN_AFTER_BUILD FALSE
     PLUGIN_MANUFACTURER_CODE HpAu
     PLUGIN_CODE Mnsg
-    FORMATS VST3 Standalone
+    FORMATS VST3
     PRODUCT_NAME "Moonsong"
 )
 
