@@ -1,5 +1,4 @@
-![Static Badge](https://img.shields.io/badge/Version-1.10-blue)
-
+![GitHub Release](https://img.shields.io/github/v/release/akbrucke/Moonsong?color=%234E7CA1)
 # Moonsong
 VST3 Vocal Delay &amp; Reverb Console using JUCE Framework, vibe-coded and then refined with a human touch
 
